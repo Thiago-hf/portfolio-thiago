@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { toast } from "sonner"
+import { toast } from 'sonner'
 
 export function ButtonCurriculum() {
   return (
