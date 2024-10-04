@@ -2,11 +2,13 @@ import Link from 'next/link'
 import { toast } from 'sonner'
 
 export function ButtonCurriculum() {
+  const handleDownload = () => {
+    toast('Baixado com sucesso!');
+  };
+  
   return (
     <div className="flex items-center justify-center">
       <div className="group relative">
-      toast("Baixado com sucesso!")
-
         <Link href="/curriculum_thiago_henrique.pdf" target="_blank" download>
           <button className="relative inline-block cursor-pointer rounded-xl bg-gray-800 p-px font-semibold leading-6 text-white shadow-2xl shadow-zinc-900 transition-transform duration-300 ease-in-out hover:scale-105 active:scale-95">
             <span className="absolute inset-0 rounded-xl bg-gradient-to-r from-teal-400 via-blue-500 to-purple-500 p-[2px] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span>
