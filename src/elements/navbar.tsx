@@ -7,13 +7,17 @@ export function Navbar() {
     <header className="flex h-20 items-center justify-between gap-4 px-32 text-slate-950 max-md:px-28 max-sm:px-6">
       <nav>
         <ul className="font-mont flex items-center gap-4">
-          <Link href="/">
-            <li>Sobre mim</li>
-          </Link>
+          <li>
+            <Link href="#about-me" scroll={true}>
+              Sobre mim
+            </Link>
+          </li>
 
-          <Link href="/">
-            <li>Projetos</li>
-          </Link>
+          <li>
+            <Link href="#projects" scroll={true}>
+              Projetos
+            </Link>
+          </li>
         </ul>
       </nav>
 

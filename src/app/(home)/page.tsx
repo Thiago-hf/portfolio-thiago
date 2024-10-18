@@ -47,7 +47,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 px-32 max-md:mt-6 max-md:grid-cols-1 max-md:gap-6 max-md:px-6">
+      <div
+        className="grid grid-cols-3 px-32 max-md:mt-6 max-md:grid-cols-1 max-md:gap-6 max-md:px-6"
+        id="about-me"
+      >
         <div className="col-span-1 flex flex-col justify-center gap-4">
           <h2 className="font-pixel flex justify-start text-4xl font-bold">
             Olá,
@@ -85,7 +88,10 @@ export default function Home() {
       <div className="grid py-28 max-md:grid-cols-1 max-md:px-6 max-md:py-8">
         <div className="flex flex-col items-center justify-center gap-10">
           <h2 className="font-mont text-2xl underline underline-offset-4">
-            <span className="font-type text-2xl">A</span>lguns Projetos
+            <span className="font-type text-2xl" id="projects">
+              A
+            </span>
+            lguns Projetos
           </h2>
 
           <div className="flex gap-6 max-md:flex-col">

@@ -16,7 +16,7 @@ export function ButtonCurriculum() {
             <span className="relative z-10 block rounded-xl bg-gray-950 px-6 py-3">
               <div className="relative z-10 flex items-center space-x-2">
                 <span className="transition-all duration-500 group-hover:translate-x-1">
-                  Download CV080080
+                  Download CV
                 </span>
                 <svg
                   className="h-6 w-6 transition-transform duration-500 group-hover:translate-x-1"
