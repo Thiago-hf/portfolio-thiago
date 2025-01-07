@@ -7,7 +7,7 @@ export function ButtonCurriculum() {
     <div className="flex items-center justify-center">
       <div className="group relative">
         <Link
-          href="/public/curriculum_thiago_henrique.pdf"
+          href="./public/curriculum_thiago_henrique.pdf"
           target="_blank"
           download
         >
